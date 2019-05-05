@@ -144,12 +144,13 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/yu/lettuce/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/yu/lettuce/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/yu/lettuce/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/yu/lettuce/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/yu/lettuce/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/yu/lettuce/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/yu/lettuce/proprietary/lib64/librcc.so:system/lib64/librcc.so \
@@ -194,6 +195,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_abr.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_enc.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
@@ -258,6 +261,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -312,10 +317,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/yu/lettuce/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/yu/lettuce/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/yu/lettuce/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
