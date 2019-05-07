@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/qmi_config.xml \
     vendor/yu/lettuce/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/yu/lettuce/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/yu/lettuce/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
+    vendor/yu/lettuce/proprietary/vendor/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/yu/lettuce/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/yu/lettuce/proprietary/vendor/etc/permissions/com.qualcomm.qti.Performance.xml:system/vendor/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -95,19 +95,19 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/framework/QPerformance.jar:system/vendor/framework/QPerformance.jar \
     vendor/yu/lettuce/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:system/vendor/framework/QtiTelephonyServicelibrary.jar \
     vendor/yu/lettuce/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:system/vendor/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/yu/lettuce/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/yu/lettuce/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/yu/lettuce/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
-    vendor/yu/lettuce/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
-    vendor/yu/lettuce/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/yu/lettuce/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/yu/lettuce/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -135,10 +135,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
     vendor/yu/lettuce/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
     vendor/yu/lettuce/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/yu/lettuce/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
-    vendor/yu/lettuce/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
-    vendor/yu/lettuce/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
-    vendor/yu/lettuce/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -173,15 +173,15 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/yu/lettuce/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/yu/lettuce/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/yu/lettuce/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/yu/lettuce/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/yu/lettuce/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/yu/lettuce/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/librcc.so:system/lib/librcc.so \
+    vendor/yu/lettuce/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/yu/lettuce/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
-    vendor/yu/lettuce/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/librcc.so:system/lib64/librcc.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_t86519a1_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_t86519a1_common.so \
@@ -314,12 +314,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
-    vendor/yu/lettuce/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
-    vendor/yu/lettuce/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
-    vendor/yu/lettuce/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
-    vendor/yu/lettuce/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
-    vendor/yu/lettuce/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/yu/lettuce/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -351,9 +351,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/yu/lettuce/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/yu/lettuce/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/yu/lettuce/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
