@@ -473,5 +473,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
     vendor.qti.hardware.fm@1.0
